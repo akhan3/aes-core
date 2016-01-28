@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1820"
+   name=""
+   committed-date="2007-02-13T11:48:55.638157Z"
+   url="svn+ssh://asif@192.168.1.11/home/svn/template/design/rtl"
+   last-author="masood"
+   kind="dir"
+   uuid="36913ad0-8410-0410-a1d9-f8ae3df1db49"
+   revision="2078"/>
+<entry
+   committed-rev="1820"
+   name="sample_rtl.v"
+   text-time="2007-03-15T05:43:28.000000Z"
+   committed-date="2007-02-13T11:48:55.638157Z"
+   checksum="e404abce9cad2e1fa619ab1581defc07"
+   last-author="masood"
+   kind="file"
+   prop-time="2007-03-15T05:43:28.000000Z"/>
+</wc-entries>
