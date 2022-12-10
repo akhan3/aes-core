@@ -1,0 +1,27 @@
+# Ignore all files without extension in the filename
+# Useful for ignoring ghdl-produced simulation binaries
+#   https://stackoverflow.com/a/19023985/107349
+#   1. Ignore all
+#   2. Unignore all dirs
+#   3. Unignore all with extensions
+*
+!/**/
+!*.*
+# Above combination will ignore all files without extension
+
+# Unignore Makefiles (without extension)
+!Makefile
+
+# Ignore ghdl compiled objects
+*.o
+*.cf
+
+# Ignore simulation products
+**/sim/**/*.o
+**/sim/**/*.ghw
+**/sim/**/*.gtkw
+**/sim/**/*.vcd
+**/sim/**/*.cf
+**/sim/work
+**/sim/**/work
+**/sim/_*.txt
