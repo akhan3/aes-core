@@ -9,8 +9,8 @@
 // Date of last modifaction   : 16 July, 2007
 //
 // Description                : S-Box Lookup Table
-//															This module infers a block ROM of size 256x8bit
-//															The address port is registered but the data port is not
+//                                                          This module infers a block ROM of size 256x8bit
+//                                                          The address port is registered but the data port is not
 //
 //
 // Revision                   :
@@ -25,10 +25,10 @@
 
 module sbox
 (
-	input 					 clk		,
-	input 		       en  		,
-	input 		 [7:0] addr		,
-	output reg [7:0] data  
+    input                    clk        ,
+    input              en       ,
+    input        [7:0] addr     ,
+    output reg [7:0] data
 );
 
 always @(posedge clk)
