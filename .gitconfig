@@ -1,0 +1,8 @@
+# Apply this configuration to your copy of the repo via the following command
+#       git config --local include.path ../.gitconfig
+
+[blame]
+    ignorerevsfile = .git-blame-ignore-revs
+    # The following 2 options are unnecessary and they also break the git-delta pager
+    # markUnblamableLines = true
+    # markIgnoredLines = true
